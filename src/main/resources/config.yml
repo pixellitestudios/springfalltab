@@ -1,0 +1,12 @@
+# PixelliteTablist -- CONFIGURATION
+
+# The tablist header
+header:
+  - ' '
+  - 'Pixellite Network'
+  - ' '
+
+footer:
+  - ' '
+  - 'Welcome, player!'
+  - ' '

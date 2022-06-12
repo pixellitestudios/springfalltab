@@ -1,0 +1,9 @@
+name: PixelliteTablist
+author: Pixellite Studios
+version: 1.0.0
+description: Tablist dispatcher plugin
+main: studio.pixellite.tablist.TablistPlugin
+api-version: 1.13
+website: https://pixellite.studio/
+depend: [helper]
+softdepend: [PixelliteNetwork]
