@@ -21,6 +21,10 @@ public class TablistDispatcher {
    * Dispatches the configured tablist to all online players.
    */
   public void dispatchToOnlinePlayers() {
+    if(Bukkit.getOnlinePlayers().size() == 0) {
+      return; // nobody is online, nothing to do here
+    }
+
     // Get header and footer
     String header = plugin.getParser().parsePlaceholders(
             String.join("\n", plugin.getConfigurationStringList("header")));
